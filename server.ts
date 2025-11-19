@@ -61,10 +61,10 @@ server.registerResource(
 async function init() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("🌤️ Weather MCP Server Started!");
-  console.error("🛠️ Tool: getWeatherDataByCityName");
-  console.error("📚 Resource: weather://cities");
-  console.error("✅ Server ready!");
+  console.error(" Weather MCP Server Started!");
+  console.error(" Tool: getWeatherDataByCityName");
+  console.error(" Resource: weather://cities");
+  console.error(" Server ready!");
 }
 
 async function getWeatherByCity(city: string) {
